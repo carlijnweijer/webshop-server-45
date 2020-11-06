@@ -45,7 +45,7 @@ router.post("/", async (req, res, next) => {
     // tying together this new order with the products it needs.
 
     const newOrderProducts = productIds.map(
-      async id =>
+      async (id) =>
         await OrderProduct.create({ productId: id, orderId: newOrder.id })
     ); // [Promise, Promise, Promise]
 

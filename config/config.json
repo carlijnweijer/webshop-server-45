@@ -1,7 +1,8 @@
 {
   "development": {
-    "url": "postgres://ddnveufx:U29ZxFkqoSDgOIE4ebNW2ud1kIKBgVBa@balarama.db.elephantsql.com:5432/ddnveufx",
-    "dialect": "postgres"
+    "url": "postgres://raxyzfpu:BnLMXFp765nYp09FTcY47Km45rlJqfRV@hattie.db.elephantsql.com:5432/raxyzfpu",
+    "dialect": "postgres",
+    "operatorsAliases": "0"
   },
   "test": {
     "username": "root",
